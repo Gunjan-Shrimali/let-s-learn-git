@@ -1,0 +1,1 @@
+A program is a set of instructions given to a computer to perform a specific operation. or computer is a computational device which is used to process the data under the control of a computer program. While executing the program, raw data is processed into a desired output format.
