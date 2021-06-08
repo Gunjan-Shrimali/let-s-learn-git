@@ -1,0 +1,101 @@
+date:- 6.june.21 anju bhaiya channel
+===========
+git is version control system for handling a files ,according to the different branches and times with help of
+git we revert back to the older versions easily and make changes and save then back to the present version.
+
+
+git commands 
+
+step-1 first "git" and "git-hub" are different. git is desktop version for handling project using command line
+step-2 just install git from "git-scm" installing git command line . then setting up account of github .
+step-3 make command 1-->"git init"--> for intilizing new git repositiory in git hub .
+step-4 command 2 --> "git mkdir"--> for creating new directory inside the the repository.
+step-5 command 3 --> "git status"--> for knowing the status of the git repo. data . 
+step-6 command 4 --> "git add"--> for adding a file or any project data inside the STAGING area . 
+		"git add . " for adding all file changes to the staging area .
+step-7 command 5 --> "git status" --> showing the no status.
+step-8 command 6 --> "git commit -m "text message" " --> This cmd will save the all changes from staging
+		area to the branch . all changes commit.
+step-9 command 7 --> "git log" --> this command will show you all the history changes to the branch .
+			with the hash code we track all the commit and go back to the past 
+			brach.
+step-10 command 8 -->"git branch"--> This cmd will show all the braches in the git repo. , how many braches
+			     will be exist at present in the git .
+step-11 command 9 --> "git checkout __HASH CODE___"--> for revert back to the past version . then 
+			start working on the past version save the changes.
+step-12 command 10-->"git checkout master"--> after working on past version revert back to the master 
+			present branch .
+step 13 command 11-->"git checkout gunjan/multiply"--> create a new brach gunjan with feature name 
+			whatever you are on working . the cursor create a brach and switch 
+			to the gunjan/multiply. make starting changes.
+step 14 command 12-->''git branch ____Branch name_____ "--> This command will create another brach 
+			simply in just applying this .
+NOTE:- in git from revert back to the editor screen we use --> :wq --> command for back to the shell.
+
+step 15 command 13-->"git merge gunjan/multiply"--> suppose i need to merge my all brach work in master
+		so first i go into the "git checkout master"--> then  apply above command so all the
+		updates and file of the gunjan/multiply merged into the master brach and then we 
+		commit into the git using "git commit -m "message"" .
+step 16 command 14--> we using git ignore for safe our secret data to going out into the git ecosystem .i.e.
+		no one can be in future track this file . git will ignore this file . 
+for creating git file --> "touch .gitignore"<--- after this cmd gitignore file will be created inside the directory .
+		we can also be manually be creating a file inside the brach with .gitignore file extension.
+	for secreting any file inside the gitignore file . we just need to write a name of file inside this 
+	git ingnore file for ignoring the file in git ecosystem .
+			and we also write name .gitignore file into the gitignore file for hide 
+			from the git track and status.
+
+step 17 command 15--> Creating new repostitory on the Github.com website just go to the url and on nav 
+		+  new repository creating with name and description . then we see some command
+		for push pull inside the git.
+
+step 18 command 16--> Now we are pushing our local pc code of git pushing into our recently created 
+		git hub repository ---name whatever--- so we are follow those commands to run 
+		
+		cmd -->"git remote add origin https://github.com/gunjan910/let-s-learn-git.git
+		cmd -->"git branch -M push
+		cmd--> "git push -u origin main"
+Then our code will be pushed to the git hub.
+=======
+NOTE:- In General for pushing data into the github we simply use :- "git push" command for the current 
+	origin or master.
+=======
+NOTE:- For any changes need inside the account switching and cmd is 
+	-->"git  config --global --edit"<--
+======
+step 19 command 17--> "git checkout __branch name____" , then "git push -u origin __brach name___"
+	so in above commands we are just putting these command and pusing another one directory to
+	the github (another branches to github accounts).
+
+
+==============================================================
+==> How to add collaborator's on Git hub repository.?
+ans.  goto settings>manage access> invite collaborator  so the invited collaborator person has sended the 
+	mail for complete access to make code changes directly from his pc . 
+	the changes directly seeing in the git log by the gmail id . hope you understand.
+
+==============================================================
+==> How to clone any project inside our git . (in our laptop)
+ans. first we need to fork any repo to our github account . and then copy of the other's repo will be 
+on your account then we goto code>copy https path>
+
+cmd is --> " git clone __repo path__ " this is the command for clone project inside the local pc .
+
+=======
+NOTE:- for editing any file inside git terminal cmd is
+	-->"vim __file name__"<--
+===================
+NOTE: for checking detail view of file changes cmd is
+	-->"cat __file name__"<--
+===================
+Create PULL Request :- 
+	after clone any fork repository and then made changes  commit . then push to repository.
+okay then we made pull request .
+		goto > contribute > open pull request > reviewing changes > create pull request.
+==================
+Accept PULL Request :- 
+	goto pull request > review changes > Approved >Merge 
+=================
+PATH TO OTHER CONTRIBUTIONS:- 
+so over all about any contribution is 
+		Fork > Clone > Changes >Commit > Push > Pull request .
