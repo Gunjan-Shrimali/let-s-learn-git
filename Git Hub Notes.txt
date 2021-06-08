@@ -1,4 +1,4 @@
-date:- 6.june.21 
+date:- 6.june.21 anju bhaiya channel
 ===========
 git is version control system for handling a files ,according to the different branches and times with help of
 git we revert back to the older versions easily and make changes and save then back to the present version.
@@ -99,3 +99,10 @@ Accept PULL Request :-
 PATH TO OTHER CONTRIBUTIONS:- 
 so over all about any contribution is 
 		Fork > Clone > Changes >Commit > Push > Pull request .
+================
+SELF DECLEARATION :- hum chahe utani desktop directory bana kar hum github repository me push 
+		         karsakte h. hamare local pc me chahe utane folder code same hona chayer or 
+		        fir password ki madat se hum chahe us laptop se push karsake h.
+
+==> so an storage issue on desktop c drive [so delete the desktop code] and then next time if you want to
+update the git repository before we need to [clone project on desktop folder] and then update changes.
