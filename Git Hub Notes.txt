@@ -1,19 +1,54 @@
-date:- 6.june.21 Gunjan shrimali made notes.
+Designed & written by - Gunjan shrimali . 
 ===========
 git is version control system for handling a files ,according to the different branches and times with help of
 git we revert back to the older versions easily and make changes and save then back to the present version.
 
 
-git commands 
+GIT-HUB Basic Commands:- 
 
+I ) git configuration cmd -> (git for windows configuration).
+
+	(i) git config --global user.name "Your Name"
+	(ii) git config --global user.email "Your@email.com"
+
+II) remove git repository -: 
+	cmd --> rm -rf .git
+
+III) present working directory :- 
+	cmd --> pwd
+
+IV) simple "ls" cmd will be used for display all the working directories. 
+			&&
+    cmd- "ls -al" this cmd will showing the all files of the project including hidden one. 
+
+V) all the terminal and previous commit 
+	cmd --> "git show" 
+
+VI) For unstaging the file after the staging cmd is :-
+	cmd --> "git reset HEAD __file name__"  
+
+VII) For the both the licence & readme.md files to the repository.
+	cmd --> git hist --LICENse.md
+
+VIII) for renaming the current file in git hub
+	cmd --> git mv example.txt demo.txt (first name ==> second name).
+
+----------------------
 step-1 first "git" and "git-hub" are different. git is desktop version for handling project using command line
+
 step-2 just install git from "git-scm" installing git command line . then setting up account of github .
+
 step-3 make command 1-->"git init"--> for intilizing new git repositiory in git hub .
+
 step-4 command 2 --> "git mkdir"--> for creating new directory inside the the repository.
+
 step-5 command 3 --> "git status"--> for knowing the status of the git repo. data . 
+
 step-6 command 4 --> "git add"--> for adding a file or any project data inside the STAGING area . 
 		"git add . " for adding all file changes to the staging area .
+
 step-7 command 5 --> "git status" --> showing the no status.
+
 step-8 command 6 --> "git commit -m "text message" " --> This cmd will save the all changes from staging
 		area to the branch . all changes commit.
 step-9 command 7 --> "git log" --> this command will show you all the history changes to the branch .
