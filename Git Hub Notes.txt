@@ -32,12 +32,16 @@ step 14 command 12-->''git branch ____Branch name_____ "--> This command will cr
 			simply in just applying this .
 NOTE:- in git from revert back to the editor screen we use --> :wq --> command for back to the shell.
 
+Note :- for Checking updates before merging two braches we use this following cmd :- "git diff __brach__name__" ;
+
 step 15 command 13-->"git merge gunjan/multiply"--> suppose i need to merge my all brach work in master
 		so first i go into the "git checkout master"--> then  apply above command so all the
 		updates and file of the gunjan/multiply merged into the master brach and then we 
 		commit into the git using "git commit -m "message"" .
+
 step 16 command 14--> we using git ignore for safe our secret data to going out into the git ecosystem .i.e.
 		no one can be in future track this file . git will ignore this file . 
+
 for creating git file --> "touch .gitignore"<--- after this cmd gitignore file will be created inside the directory .
 		we can also be manually be creating a file inside the brach with .gitignore file extension.
 	for secreting any file inside the gitignore file . we just need to write a name of file inside this 
@@ -50,12 +54,19 @@ step 17 command 15--> Creating new repostitory on the Github.com website just go
 		for push pull inside the git.
 
 step 18 command 16--> Now we are pushing our local pc code of git pushing into our recently created 
-		git hub repository ---name whatever--- so we are follow those commands to run 
-		
-		cmd -->"git remote add origin https://github.com/gunjan910/let-s-learn-git.git
-		cmd -->"git branch -M push
+		git hub repository ---name whatever--- so we are follow those commands to run
+ 
+	(example 1)cmd --> "git remote add __any name__ path"	(syntax)
+		   cmd (i) --> "git remote add server https://github.com/gunjanitengg/let-s-learn-git" 		(example)		
+		   cmd (ii)--> "git push -u server"
+
+	(example 2)	
+		cmd -->"git remote add origin https://github.com/gunjan910/let-s-learn-git.git 			
+		cmd -->"git branch -M push 									// for renaming the branch
 		cmd--> "git push -u origin main"
+
 Then our code will be pushed to the git hub.
+
 =======
 NOTE:- In General for pushing data into the github we simply use :- "git push" command for the current 
 	origin or master.
